@@ -16,8 +16,57 @@ import java.util.Random;
  *
  * @author me
  */
+
+
 public class Ammad2022532 {
 
+    public static class Team {
+    private String name;
+    private List<Person> members;
+
+    public Team(String name) {
+        this.name = name;
+        this.members = new ArrayList<>();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public List<Person> getMembers() {
+        return members;
+    }
+
+    public void addMember(Person person) {
+        members.add(person);
+    }
+
+    @Override
+    public String toString() {
+        return "Team Name: " + name + ", Members: " + members;
+    }
+}
+
+    public static class Person {
+      private int id;
+    private String firstName;
+    private String lastName;
+    private String email;
+
+    public Person(int id, String firstName, String lastName, String email) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
+    // Getter methods for the attributes
+
+    @Override
+    public String toString() {
+        return "ID: " + id + ", Name: " + firstName + " " + lastName + ", Email: " + email;
+    }
+}
     /**
      * @param args the command line arguments
      */
