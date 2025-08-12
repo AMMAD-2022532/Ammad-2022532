@@ -5,9 +5,8 @@
 📍 Based in Dublin, Ireland
 
 ## 💡 What I'm Working On
-- Strengthening my skills in **OOP**, **UML**, and **System Design**
 - Developing web apps using **Spring Boot** (backend) and **React** (frontend)
-- Building academic and personal projects to grow my portfolio
+- Building academic and personal projects
 
 ## 📫 Contact Me
 - 📧 Email: a.hussain5146@gmail.com  
@@ -16,3 +15,4 @@
 ---
 
 _Thanks for visiting my profile! I'm actively learning and building – more coming soon._
+
